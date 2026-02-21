@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 60px;
+    height:auto;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    gap:40px;
+    padding:15px 40px;
+    background-color: white;
+    position:fixed;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+    font-weight: 550;
+    font-size:14px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-links li a:hover{
+     transform: scale(1.05);
+  transition: 0.3s;
+}
+.nav-links li a:hover{
+    color: #ff3f6c;
+    border-bottom: 2px solid #ff3f6c;
+    padding-bottom:5px;
+}
+.searchBar{
+    width:350px;
+    padding:10px;
+    border:none;
+    background-color: #f1f0f0;
+    border-radius: 5px;
+}
+.first{
+    padding-top:100px;
+}
+.WatchesList{
+    padding-bottom: 30px;
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+    gap:40px;
+}
+img{
+    height:300px;
+    width:220px;
+}
+p,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:10px;
+
+}
+.mark{
+    text-decoration: line-through;
+}
+.rp{
+    font-size: 20px;
+    font-weight: bold;
+}
